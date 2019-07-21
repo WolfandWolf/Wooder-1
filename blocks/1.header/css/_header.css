@@ -6,9 +6,10 @@
 header {
   height: 86px;
   font-family: 'ProximaNova';
-  background-image: url(../img/left-firewood.png)
 }
+
   /* menu */
+
   header .menu-button {
     position: relative;
     top: 50%;
@@ -18,12 +19,14 @@ header {
     height: 22px;
     margin-left: 27px;
   }
+
   header .menu-button div {
     width: 33px;
     height: 1px;
     margin-bottom: 10px;
     background-color: #bea67c;
   }
+
   header .menu {
     position: relative;
     top: 50%;
@@ -33,7 +36,9 @@ header {
     color: #6f6f6f;
     font-size: 15.5px;
   }
+
   /* label "WOODER" */
+
   header .main-name {
     position: relative;
     top: 50%;
@@ -44,6 +49,7 @@ header {
     font-size: 35px;
     letter-spacing: 12px;
   }
+
   header .main-name div {
     position: absolute;
     top: 18px;
@@ -52,7 +58,9 @@ header {
     height: 4px;
     background-color: #bea67c;
   }
+
   /* navigation */
+
   header nav {
     position: relative;
     top: 50%;
@@ -60,21 +68,25 @@ header {
     float: left;
     margin-left: 37px;
     font-size: 15.5px;
-
   }
+
   header nav ul>li {
     display: inline-block;
     margin-left: 9px;
     list-style: none;
     color: #6f6f6f;
   }
+
   header nav ul>li:nth-child(2) {
     margin-left: 113px;
   }
+
   header nav ul>li:nth-child(3) {
     margin-left: 91px;
   }
+
   /* label-info*/
+
   header .info {
     position: relative;
     top: 50%;
@@ -83,7 +95,8 @@ header {
     margin-left: 368px;
     color: #808080;
   }
-  header .choose-lang{
+
+  header .choose-lang {
     position: relative;
     top: 50%;
     transform: translate(0, -50%);
