@@ -1,0 +1,99 @@
+@font-face {
+  font-family: ProximaNova;
+  src: url(../fonts/ProximaNova-Bold.ttf);
+}
+
+header {
+  height: 86px;
+  font-family: 'ProximaNova';
+  background-image: url(../img/left-firewood.png)
+}
+  /* menu */
+  header .menu-button {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    float: left;
+    width: 33px;
+    height: 22px;
+    margin-left: 27px;
+  }
+  header .menu-button div {
+    width: 33px;
+    height: 1px;
+    margin-bottom: 10px;
+    background-color: #bea67c;
+  }
+  header .menu {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    float: left;
+    margin-left: 11px;
+    color: #6f6f6f;
+    font-size: 15.5px;
+  }
+  /* label "WOODER" */
+  header .main-name {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    float: left;
+    margin-left: 593px;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    letter-spacing: 12px;
+  }
+  header .main-name div {
+    position: absolute;
+    top: 18px;
+    left: 44px;
+    width: 64px;
+    height: 4px;
+    background-color: #bea67c;
+  }
+  /* navigation */
+  header nav {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    float: left;
+    margin-left: 37px;
+    font-size: 15.5px;
+
+  }
+  header nav ul>li {
+    display: inline-block;
+    margin-left: 9px;
+    list-style: none;
+    color: #6f6f6f;
+  }
+  header nav ul>li:nth-child(2) {
+    margin-left: 113px;
+  }
+  header nav ul>li:nth-child(3) {
+    margin-left: 91px;
+  }
+  /* label-info*/
+  header .info {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    float: left;
+    margin-left: 368px;
+    color: #808080;
+  }
+  header .choose-lang{
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    float: left;
+    margin-left: 51px;
+    color: #808080;
+  }
+
+@media (min-width: 768px) and (max-width: 1200px) {
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+}
