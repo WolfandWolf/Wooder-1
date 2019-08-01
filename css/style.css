@@ -1,5 +1,22 @@
-body {
-    background-image: url(../img/wooder.png);
+@font-face {
+    font-family: ProximaNova;
+    src: url(../fonts/ProximaNova-Bold.ttf);
+    font-weight: bold;
+  }
+
+@font-face {
+    font-family: ProximaNova;
+    src: url(../fonts/ProximaNova-Regular.ttf);
+    font-weight: normal;
+}
+
+.background-container {
+    height: 4776px;
+    background-image: url(../img/WOODER\ Free\ PSD\ Template.png);
     background-repeat: no-repeat;
-    height: 2000px;
+
+}
+
+html {
+    scroll-behavior: smooth;
 }

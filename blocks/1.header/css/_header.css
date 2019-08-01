@@ -1,23 +1,26 @@
-@font-face {
-  font-family: ProximaNova;
-  src: url(../fonts/ProximaNova-Bold.ttf);
-}
-
 header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
   height: 86px;
-  font-family: 'ProximaNova';
+  background-image: url(../img/asdd);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: ProximaNova;
+  font-weight: bold;
 }
 
   /* menu */
+  
+  header .left-container {
+    display: flex;
+    align-items: center;
+    margin-left: 27px;
+    color: #6f6f6f;
+  }
 
   header .menu-button {
-    position: relative;
-    top: 50%;
-    transform: translate(0, -50%);
-    float: left;
-    width: 33px;
-    height: 22px;
-    margin-left: 27px;
+    padding-top: 7px; 
   }
 
   header .menu-button div {
@@ -28,26 +31,33 @@ header {
   }
 
   header .menu {
-    position: relative;
-    top: 50%;
-    transform: translate(0, -50%);
-    float: left;
-    margin-left: 11px;
+    display: block;
+    padding-left: 10px;
     color: #6f6f6f;
-    font-size: 15.5px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  header .menu-button:hover ~ .menu {
+    color: #bea67c;
   }
 
   /* label "WOODER" */
 
+  header .middle-container {
+    display: flex;
+    align-items: center;
+  }
+
   header .main-name {
     position: relative;
-    top: 50%;
-    transform: translate(0, -50%);
-    float: left;
-    margin-left: 593px;
     color: rgb(255, 255, 255);
     font-size: 35px;
     letter-spacing: 12px;
+  }
+
+  header .main-name:hover {
+    color: #bea67c;
   }
 
   header .main-name div {
@@ -62,47 +72,46 @@ header {
   /* navigation */
 
   header nav {
-    position: relative;
-    top: 50%;
-    transform: translate(0, -50%);
-    float: left;
-    margin-left: 37px;
     font-size: 15.5px;
   }
 
   header nav ul>li {
     display: inline-block;
-    margin-left: 9px;
+    margin-left: 50px;
     list-style: none;
     color: #6f6f6f;
   }
 
-  header nav ul>li:nth-child(2) {
-    margin-left: 113px;
-  }
-
-  header nav ul>li:nth-child(3) {
-    margin-left: 91px;
-  }
-
   /* label-info*/
 
-  header .info {
-    position: relative;
-    top: 50%;
-    transform: translate(0, -50%);
-    float: left;
-    margin-left: 368px;
+  header .right-container {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
     color: #808080;
   }
 
   header .choose-lang {
-    position: relative;
-    top: 50%;
-    transform: translate(0, -50%);
-    float: left;
     margin-left: 51px;
-    color: #808080;
+    list-style: none;
+  }
+
+  /* colorful link */
+
+  header .right-container  a {
+    text-decoration: none;
+    color: #bea67c;
+  }
+
+  header a:hover {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #bea67c;
+  }
+
+  header a {
+    text-decoration: none;
+    text-transform: uppercase;
   }
 
 @media (min-width: 768px) and (max-width: 1200px) {

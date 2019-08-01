@@ -1,0 +1,72 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 663px;
+  font-family: ProximaNova;
+  font-weight: bold;
+}
+
+.about img {
+  margin-right: 97px;
+  box-shadow:         1px 1px 5px 0px rgba(50, 50, 50, 0.45);
+}
+
+.about .text {
+  width: 340px;
+  
+}
+
+.about p:nth-child(1) {
+  margin: 0;
+  font-size: 53px;
+  text-transform: uppercase;
+}
+
+.about .text div:nth-child(2) {
+  position: relative;
+  top: 27px;
+  right: 69px;
+  width: 44px;
+  height: 4px;
+  background-color: #bea67c;
+}
+
+.about p:nth-child(2) {
+  font-weight: normal;
+  color: #464646;
+}
+
+.about .learn-more_down {
+  display: block;
+  width: 253px;
+  height: 54px;
+  margin-top: 30px;
+  stroke: #bea67c;
+  text-transform: uppercase;
+}
+
+.about .learn-more_down div:nth-child(1) {
+  float: left;
+  margin-top: 22px;
+  margin-left: 3px;
+  color: #000;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+.about .learn-more_down svg {
+  float: left;
+  display: block;
+  margin-left: 12px;
+  margin-top: 19px;
+}
+
+.about .learn-more_down div:nth-child(3) {
+  position: relative;
+  top: 40px;
+  left: 2px;
+  width: 44px;
+  height: 2px;
+  background-color: #bea67c;
+}
