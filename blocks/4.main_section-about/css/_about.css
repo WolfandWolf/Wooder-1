@@ -9,7 +9,8 @@
 
 .about img {
   margin-right: 97px;
-  box-shadow:         1px 1px 5px 0px rgba(50, 50, 50, 0.45);
+  box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.45);
+    width: 460px;
 }
 
 .about .text {
@@ -17,31 +18,57 @@
   
 }
 
-.about p:nth-child(1) {
+.about .about-text-title {
+    position: relative;
+    
+}
+
+.about .about-text-title h3 {
   margin: 0;
   font-size: 53px;
   text-transform: uppercase;
+  margin-left: 20px;
 }
 
-.about .text div:nth-child(2) {
-  position: relative;
-  top: 27px;
-  right: 69px;
-  width: 44px;
-  height: 4px;
-  background-color: #bea67c;
+.about .about-text-title::before {
+    content: "";
+    width: 162px;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-100%, 0);
+    
 }
 
-.about p:nth-child(2) {
+.about-text-p {
+    position: relative;
+}
+.about .text .about-text-p::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    display: block;
+    left: 0;
+    top: 12%;
+    background-color: #bea67c;
+    transform: translate(-100%, 0);
+}
+
+.about .about-text-p p {
   font-weight: normal;
   color: #464646;
+  margin: 20px 0 0 20px;
 }
 
 .about .learn-more_down {
   display: block;
   width: 253px;
   height: 54px;
-  margin-top: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
   stroke: #bea67c;
   text-transform: uppercase;
 }
