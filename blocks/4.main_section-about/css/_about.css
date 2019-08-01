@@ -97,3 +97,23 @@
   height: 2px;
   background-color: #bea67c;
 }
+
+@media (min-width: 768px) and (max-width: 1215px) {
+  .about img {
+    margin-right: 50px;
+      width: 430px;
+  }
+  
+  .about .about-text-title h3 {
+    font-size: 48px;
+  }
+  
+  .about .about-text-title::before {
+      width: 103px;
+      
+  }
+
+
+  
+  
+}

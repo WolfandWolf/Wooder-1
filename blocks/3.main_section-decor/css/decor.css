@@ -234,18 +234,6 @@
 
 
 @media (min-width: 768px) and (max-width: 1215px) {
-    .main-content {
-        padding: 10% 10% 0;
-         font-family: ProximaNova;
-      font-weight: bold;
-    }
-    
-    .content-item {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 250px;
-    }
     
     .content-item img {
         width: 57%;
@@ -269,13 +257,6 @@
         text-align: right;
     }
     
-    .item-text p {
-        color: #464646;
-        font-size: 15px;
-        letter-spacing: 1px;
-        margin: 0;
-        width: 308px;
-    }
     
     .content-item-2 .item-text p {
         width: 297px;
@@ -295,15 +276,6 @@
         margin-left: 104px;
         display: block;
     }
-    
-    .item-text svg {
-        margin: 0;
-        margin-left: 5px;
-        float: none;
-        display: inline;
-        vertical-align: middle;
-    }
-    
     
     .item-text a:after {
         content: "";
@@ -328,8 +300,6 @@
     .content-item-1 .item-text-title {
             display: flex;
         align-items: center;
-        
-        
     }
     
     .content-item-1 .item-text-p {
@@ -390,82 +360,14 @@
         margin-top: 5px;
         background-color: #bea67c;
     }
-    
-    .content-number {
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        transform: translate(50%, 75%);
-    }
-    
-    .content-number-2 { 
-        left: 100%;
-        transform: translate(-50%, 75%);
-    }
+
     
     .content-number p {
-        text-transform: uppercase;
-        font-size: 35px;
-        font-weight: 800;
         margin-bottom: 25px;
     }
     
-    .content-number p::after {
-        content: ".";
-        color: #bea67c;
-        font-size: 35px;
+
         
-    }
-    .content-number div {
-        background-color: #bea67c;
-        width: 3px;
-        height: 39px;
-        margin: 0 auto;
-    }
     
-    .quality{
-          display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      font-family: ProximaNova;
-      font-weight: bold;
-        margin-bottom: 200px;
-    }
-    
-    .quality p:nth-child(1) {
-      margin: 0 0 25px;
-        text-transform: uppercase;
-        font-size: 70px;
-    }
-    
-    .quality p:nth-child(1)::after {
-        content: "";
-        width: 70px;
-        height: 4px;
-        display: block;
-        margin: 18px auto 0;
-        background-color: #bea67c;
-    }
-    
-    .quality p:nth-child(3) {
-        text-align: center;
-        color: #8d8c8c;
-        font-size: 17px;
-        width: 690px;
-        margin: 0;
-    }
-    
-    .quality div:nth-child(1) {
-      position: relative;
-      right: 19px;
-      bottom: 55px;
-      width: 44px;
-      height: 4px;
-      background-color: #bea67c;
-    }
-  
+ 
 }
