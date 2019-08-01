@@ -114,8 +114,31 @@ header {
     text-transform: uppercase;
   }
 
-@media (min-width: 768px) and (max-width: 1200px) {
-}
+  @media (min-width: 768px) and (max-width: 1215px) {
+      
+      header .left-container {
+        display: none;
+      }
+
+      /* label "WOODER" */
+    
+      header .main-name {
+        font-size: 20px;
+      }
+      header .main-name div {
+        top: 9px;
+        left: 31px;
+        width: 41px;
+        height: 2px;
+      }
+    
+      /* navigation */
+    
+      header nav ul>li {
+        margin-left: 25px;
+      }
+    
+  }
 
 @media (min-width: 320px) and (max-width: 768px) {
 }

@@ -172,6 +172,173 @@
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
+
+  main .label-wooder {
+    padding: 0;
+  }
+
+  /* left-slider */
+
+  main .left-slider {
+    transform: rotate(90deg) translate(25%, 0);
+    width: 400px;
+    height: 100px;
+  }
+
+/* nummbers */
+
+  main .left-slider div:nth-child(1) {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    float: left;
+    width: 30px;
+    height: 4px;
+    background-color: #bea67c;
+  }
+
+  main .left-slider div:nth-child(2) {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    float: left;
+    margin-left: 17px;
+    color: #bea67c;
+    font-family: "ProximaNova";
+    font-size: 30px;
+    letter-spacing: 6px;
+  }
+
+  /* dots */
+
+  main .left-slider a {
+    display: block;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    float: left;
+    width: 7px;
+    height: 7px;
+    margin-left: 20px;
+    margin-top: 2px;
+    border-radius: 50%;
+    background-color: #bea67c;
+  }
+
+  main .left-slider a:nth-child(4) {
+    margin-left: 20px;
+    background-color: #303030;
+  }
+
+  main .left-slider a:nth-child(5) {
+    margin-left: 20px;
+    background-color: #303030;
+  }
+
+  main .left-slider a:nth-child(6) {
+    margin-left: 20px;
+    background-color: #303030;
+  }
+
+  /* middle part */
+
+  main .middle {
+    font-family: 'ProximaNova';
+    color: #bea67c;
+    font-size: 67px;
+    letter-spacing: 20px;
+  }
+
+  main .learn-more {
+    display: block;
+    width: 240px;
+    height: 50px;
+    margin-top: 31px;
+    margin-left: 10px;
+    border: solid 2px white;
+    stroke: #fff;
+  }
+
+  main .learn-more:hover > svg {
+    stroke: #bea67c;
+  }
+
+  main .learn-more:hover {
+    border-color: #bea67c;
+  }
+
+
+  main .learn-more div {
+    float: left;
+    margin-top: 20px;
+    margin-left: 55px;
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 2px;
+  }
+
+  svg {
+    float: left;
+    display: block;
+    margin-left: 12px;
+    margin-top: 18px;
+  }
+
+  /* middle part -- scroll down*/
+
+  main .scroll-down {
+    display: block;
+    width: 8px;
+    margin-top: 68px;
+  }
+
+  main .scroll-down img {
+    float: left;
+    margin-left: 6px;
+  }
+
+  main .scroll-down svg {
+    transform: rotate(90deg);
+    float: left;
+    margin-top: 34px;
+    margin-left: 1px;
+    stroke: #fff;
+  }
+
+  main .scroll-down:hover::after {
+    content: "scroll";
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    float: left;
+    width: 10px;
+    margin-left: 11px;
+    margin-right: 1px;
+    margin-top: 27px;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+
+  main .scroll-down:hover > svg {
+    stroke: #bea67c;
+    color: #fff;
+  }
+
+.label-decor {
+    transform: rotate(90deg);
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    color: #bea67c;
+    margin-top: 135px;
+}
+
+.label-decor p {
+  margin: 0;
+}
+
+
+
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
