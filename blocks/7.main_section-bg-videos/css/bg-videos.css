@@ -5,7 +5,8 @@
 
 .bg-video--container {
     border: 2px solid #bea67c;
-    padding: 15% 8%;
+    padding: 15% 8% 10%;
+    position: relative;
 }
 
 .bg-video--container .text-section {
@@ -13,7 +14,7 @@
 }
 
 .text-section h3 {
-        text-transform: uppercase;
+    text-transform: uppercase;
     margin: 0;
     font-size: 35px;
     width: 366px;
@@ -59,4 +60,23 @@
     margin-right: 19px;
     margin-top: 5px;
     background-color: #bea67c;
+}
+
+.text-section button {
+    background-color: transparent;
+    padding: 10px 30px;
+    border: 2px solid #fff;
+    width: 191px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.bg-video--container .large-load-player {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+       width: 655px;
+    transform: translate(28%, -16%);
 }
