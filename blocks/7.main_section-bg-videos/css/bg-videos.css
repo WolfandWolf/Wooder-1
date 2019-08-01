@@ -1,0 +1,62 @@
+.bg-video {
+    background-image: url(../img/SplitShire-7483.png);
+    padding: 5% 10%;
+}
+
+.bg-video--container {
+    border: 2px solid #bea67c;
+    padding: 15% 8%;
+}
+
+.bg-video--container .text-section {
+    width: 505px;
+}
+
+.text-section h3 {
+        text-transform: uppercase;
+    margin: 0;
+    font-size: 35px;
+    width: 366px;
+    color: #bea67c;
+    font-weight: 400;
+}
+
+.text-section p {
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 0;
+    width: 365px;
+}
+
+.text-section .bg-video-title {
+        display: flex;
+    align-items: center;
+    
+    
+}
+
+.text-section .bg-video-text {
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px 0 20px;
+    
+}
+
+.text-section .bg-video-title:before {
+    content: "";
+        width: 121px;
+    height: 1px;
+    background-color: #fff;
+    margin-right: 19px;
+}
+
+.text-section .bg-video-text:before {
+    content: "";
+    width: 30px;
+    height: 3px;
+    display: block;
+    margin-right: 19px;
+    margin-top: 5px;
+    background-color: #bea67c;
+}
